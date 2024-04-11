@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.notification-card {
+  background-color: white;
+}
+.heading {
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.description-style {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.Notification-card {
+  border-style: solid;
+  border-color: #e5e5e5;
+  margin: 5px;
+  padding: 25px;
+  display: flex;
+  flex-direction: row;
+  width: 50vw;
+}
+.text-container {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.icon {
+  margin-top: 30px;
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+.cross-mark-icon {
+  font-size: 25px;
+  margin-top: 40px;
+}
